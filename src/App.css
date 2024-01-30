@@ -27,12 +27,15 @@ body {
 }
 
 .square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 33%;
   height: 100px;
   display: flex;
   border: 1px solid black;
   cursor: pointer;
-  font-size: 30%;
+  font-size: 16px;
   color: black;
   display: grid;
 
