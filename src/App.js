@@ -6,7 +6,7 @@ import { Patterns } from './components/Patterns';
 function App() {
 
   const [board, setBoard] = useState(["", "", "", "", "", "", "", "", ""]);
-  const [player, setPlayer] = useState("O");
+  const [player, setPlayer] = useState("X");
   const [result, setResult] = useState({ winner: "none", state: "none" });
 
   useEffect(() => {
